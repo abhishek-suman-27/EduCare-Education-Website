@@ -1,0 +1,521 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    background-color: #9be9ac;
+    padding-top: 20px;
+}
+
+
+.navbar-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-right: 100px;
+    gap: 70px;
+}
+
+.navbar{
+    position: fixed;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo .logo-img{
+    height: 50px;
+    width: 50px;
+    margin-left: 120px;
+}
+
+.navbar-link{
+    text-decoration: none;
+    color: white;
+}
+
+.logo a{
+    display: flex;
+    align-items: center;
+}
+
+#logo-text{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.navbar-link:hover{
+    color: #72c0df;
+    cursor: pointer
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(231, 219, 219);
+}
+
+.home-text h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.home-text p{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.logo-name{
+    color:#6e84ff;
+}
+
+.about-upper{
+    width: 80%;
+    margin-left: 160px;
+    height: 100vh;
+}
+
+
+.about-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    background-color: rgb(232, 244, 255);
+    padding-right: 100px;
+}
+
+.about-text{
+    margin: 100px;
+}
+
+.about-content .home-img{
+    width: 40%; 
+    border-radius: 20px;
+    border: 3px solid #687df3;
+}
+
+
+/* CSS */
+.button-33 {
+  background-color: #c2fbf5;
+  border-radius: 50px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: rgb(0, 114, 146);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.about-text .button-33:hover {
+  background-color: #7af398; 
+  cursor: pointer;
+  transition: .3s ease;
+  transform: scale(1.05);
+}
+
+.button-33{
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.about-text p{
+    font-size: large;
+    line-height: 30px;
+    color: grey;
+}
+
+.para{
+    margin-top: 40px;
+}
+
+
+.internship{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    margin-top: 33%;
+}
+
+.internship-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.internship-text h1{
+    font-size: 50px;
+    text-align: center;
+    color:aquamarine;
+
+}
+
+.internship-text p{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: 0 400px 0 400px;
+    color: grey;
+}
+
+.tile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+}
+
+
+
+.internship-box ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.internship-img{
+    margin-top: 20px;
+    width: 30%; 
+    
+}
+
+.internship-box .button-33{
+    margin-top: 30px;
+    
+}
+
+.internship-box p{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.web-dev{
+    background-color: #E8F7F5;
+    border-radius: 10px;
+}
+
+.ml{
+    background-color: #FDECEF;
+    border-radius: 10px;
+}
+
+.cs{
+    background-color: #ECEFFC;
+    border-radius: 10px;
+}
+
+.android{
+    background-color: #FEF7E8;
+    border-radius: 10px;
+}
+
+.web-dev .button-33{
+    background-color: #b6fcf5;
+    
+}
+
+.web-dev .button-33:hover{
+    background-color: #8cdcd4;
+    transform: scale(1.05);
+}
+
+.ml .button-33{
+    background-color: #f7b2bf;
+}
+
+.ml .button-33:hover{
+    background-color: #d18982;
+    transform: scale(1.05);
+}
+
+.cs .button-33{
+    background-color: #b1c2f5;
+}
+
+.cs .button-33:hover{
+    background-color: #8ca4dc;
+    transform: scale(1.05);
+}
+
+.android .button-33{
+    background-color: #efdfa9;
+}
+
+.android .button-33:hover{
+    background-color: #d5dc8c;
+    transform: scale(1.05);
+}
+
+.contact{
+    margin-top: 150px;
+}
+
+.contact h2{
+    font-size: 45px;
+    color: #6e84ff;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#contact {
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    border-radius: 10px;
+    gap: 10px;
+    background-color: #ffe6e3;
+    margin: 0 300px 0 300px;
+    color: #ef6f6f;
+    font-size: 18px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+}
+
+
+.form-message{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.form-message textarea{
+    height: 200px;
+    margin: 0 100px 0 100px;
+}
+
+.form-group{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group label{
+    margin-right: 20px;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact .button-33 {
+    margin-top: 30px;
+    background-color: #ffe6e3;
+   
+}
+
+.contact .button-33:hover {
+    background-color: #ffa4b3;
+    transform: scale(1.05);
+}
+
+
+.brand .logo-img{
+    height: 50px;
+    width: 50px;
+    
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.footer {
+    
+    position: relative;
+    width: 100%;
+    color: white;
+}
+
+.footer-bg {
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    z-index: -1;
+}
+
+.brand{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+}
+
+.brand p{
+    font-size: 16px;
+    line-height: 25px;
+
+}
+.brand .brand-item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.brand p{
+    margin-top: 40px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+    margin: 0 100px 0 100px;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 40px;
+    
+} 
+
+.container-footer h3{
+    margin-bottom: 20px;
+}
+
+.social .social-link{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.social span{
+    margin-left: 10px;
+}
+
+.social .social-link:hover{
+    color: #488da9;
+    cursor: pointer;
+}
+
+.about-us{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 40px;
+}
+
+.about-us .about-item:hover{
+    color: #488da9;
+    cursor: pointer;
+}
+
+.our-services{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 40px;
+}
+
+.our-services .services-item:hover{
+    color: #488da9;
+    cursor: pointer;
+}
+
+
+
+.about-list, .services-list {
+    list-style: none;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-bottom{
+    background-color: #354181;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .container-footer {
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: left;
+    }
+    
+    .brand, .social, .about-us, .our-services {
+        margin-bottom: 0;
+        width: 23%;
+    }
+}
+
+.scrolled{
+    background-color: #71adcd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black;
+    transition: 0.5s;
+}
